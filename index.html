@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/design/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- BANNER -->
+
+    <header class="text-center p-5" style="background-image: url('https://believemy.com/uploads/5d4bd34ac95c862c36d0ab9bbeb738dd_4bc5c3dd1be7c919630b687313dda68a.jpeg'); background-size: cover; background-position: center">
+        <img src="https://believemy.com/uploads/717b086520b192d2cf2d51efa03568b9_decf2bc88b05a28a571e66cbb2ee0580.png" alt="logo" />
+    </header>
+  
+  <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="container">
+        <div class="navbar-brand" href="#">Portail</div>
+       
+        <!-- RESPONSIVE BUTTON MOBILE -->
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- NAVBAR LINK-->
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Boutique du château</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Boutique d'Ollivander</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Dossier d'inscription</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+    <!-- REGISTRATION -->
+    <section style="background-image: url('https://believemy.com/uploads/f536b82491a5a3c07e60cf2b977ded35_03b49c2a70d5bf98d966a517f96cfb87.jpeg')">
+        <div class="container">
+        <div class="row">
+            <div class="col text-center text-light p-5">
+            <h3>Inscriptions ouvertes<span class="d-block fw-light mt-5">Année 2180-2181</span></h3>
+            
+            <div class="dropdown">
+                <button class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownMenu" data-bs-toggle="dropdown">
+                Documents
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenu">
+                <a class="dropdown-item" href="#">Dossier d'inscription</a>
+                <a class="dropdown-item" href="#">Règlement intérieur</a>
+                <a class="dropdown-item" href="#">Documents concernant l'internat</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- CARD SECTION -->
+    <section class="bg-light pt-3 pb-4">
+        <div class="container">
+        
+        <h2 class="mb-4 ms-sm-0 ms-4">Meilleures ventes</h2>
+        
+        <!-- CARD 1 -->
+        <div class="row justify-content-center g-5">
+            <div class=" col-md-4 col-sm-6 col-10">
+            <div class="card"> 
+                <img class="card-img-top" alt="echarpe" src="https://believemy.com/uploads/e1ff85ab9cd49ddc4bc50c80900e904d_3ef8b3485482ff65551fc3cc7454dc8b.jpeg" />
+                <div class="card-title mx-3" style="min-height: 80px">
+                <h5>Echarpe deluxe Harry Potter Gryffondor pourpre et or</h5>
+                </div>
+                <div class="card-footer">
+                <button class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#echarpeModal">Acheter</button>
+                </div>
+            </div>
+            </div>
+            
+            <!-- CARD 2 -->
+            <div class=" col-md-4 col-sm-6 col-10">
+            <div class="card"> 
+                <img class="card-img-top" alt="coupe" src="https://believemy.com/uploads/fab0785c6b803bfa89e7111d9deb0368_eb623574496b3cd82b5b358539f6b1eb.jpeg" />
+                <div class="card-title mx-3" style="min-height: 80px">
+                <h5>La Coupe des 3 Sorciers</h5>
+                </div>
+                <div class="card-footer">
+                <button class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#coupeModal">Acheter</button>
+                </div>
+            </div>
+            </div>
+            
+            <!-- CARD 3 -->
+            <div class=" col-md-4 col-sm-6 col-10">
+            <div class="card"> 
+                <img class="card-img-top" alt="baguette" src="https://believemy.com/uploads/34eaaa344edf7411a830f8946dc5fe67_ba6103b0bb201f60b88b8e033db25c7e.jpeg" />
+                <div class="card-title mx-3" style="min-height: 80px">
+                <h5>Baguette magique de Harry Potter avec boîte Ollivander</h5>
+                </div>
+                <div class="card-footer">
+                <button class="btn btn-outline-dark w-100" data-bs-toggle="modal" data-bs-target="#baguetteModal">Acheter</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    <!-- FOOTER -->
+    <footer class="bg-dark text-light p-3">
+        <div class="container text-end">
+        2022 © Harry Potter
+        </div>
+    </footer>
+    
+    <!-- MODAL --->
+
+    <!-- MODAL CARD 1 -->
+    <div class="modal fade" id="echarpeModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Echarpe deluxe Harry Potter Gryffondor pourpre et or</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div>
+            <img class="modal-content" src="https://believemy.com/uploads/e1ff85ab9cd49ddc4bc50c80900e904d_3ef8b3485482ff65551fc3cc7454dc8b.jpeg" />
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Bientôt disponible">Ajouter au panier</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- MODAL CARD 2 -->
+    <div class="modal fade" id="coupeModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">La Coupe des 3 Sorciers</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div>
+            <img class="modal-content" src="https://believemy.com/uploads/fab0785c6b803bfa89e7111d9deb0368_eb623574496b3cd82b5b358539f6b1eb.jpeg" />
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Bientôt disponible">Ajouter au panier</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- MODAL CARD 3 -->
+    <div class="modal fade" id="baguetteModal" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title">Baguette magique de Harry Potter avec boîte Ollivander</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div>
+            <img class="modal-content" src="https://believemy.com/uploads/34eaaa344edf7411a830f8946dc5fe67_ba6103b0bb201f60b88b8e033db25c7e.jpeg" />
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="" data-bs-original-title="Bientôt disponible">Ajouter au panier</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="/javascript.js"></script>
+</body>
+</html>
